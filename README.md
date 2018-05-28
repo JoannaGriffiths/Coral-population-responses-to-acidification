@@ -27,6 +27,9 @@ Description: Script contains analysis using DeSeq2. The merged matrix file conta
 Functional Enrichment Analysis
 
 Script: Please see scripts and explanations located at: https://github.com/z0on/GO_MWU\
+
 Input files: Orthoblast_interproresults_nonredun.csv, pvalue_GOL_tp1, pvalue_GOL_tp2, pvalue_PAC_tp1, pvalue_PAC_tp2
+
 Output files:
+
 Description: Script contains analysis for functional enrichment of logfold contig changes
