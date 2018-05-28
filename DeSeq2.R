@@ -34,7 +34,7 @@ countdata = countdata[, c(3,4,7,8,10,12,15,16,19,20,22,24)] #select all PAC (Tp1
 
 
 
-ddsFullCountTable <- DESeqDataSetFromMatrix(countData=countdata, colData=coldata, design = ~ POP*TREATMENT)
+ddsFullCountTable <- DESeqDataSetFromMatrix(countData=countdata, colData=coldata, design = ~ TREATMENT)
 
 ddsFull <- DESeq(ddsFullCountTable) # this is the analysis!
 head(ddsFull)
