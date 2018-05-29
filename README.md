@@ -1,4 +1,4 @@
-# Scripts and data from Griffiths (2018) in prep
+# Scripts and data from Griffiths (2018) in review
 
 Physiological Analysis
 
