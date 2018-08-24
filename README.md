@@ -1,6 +1,6 @@
 # Scripts and data from Griffiths (2018) in review
 
-Physiological Analysis
+# Physiological Analysis
 
 Script: Respiration_analysis.R
 
@@ -17,7 +17,7 @@ Description: Script contains code for normalizing lipid and protein data and per
 
 
 
-Differentially Expressed Gene Analysis
+# Differentially Expressed Gene Analysis
 
 Script: DeSeq2.R
 
@@ -29,7 +29,7 @@ Description: Script contains analysis using DeSeq2. The merged matrix file conta
 
 
 
-Functional Enrichment Analysis
+# Functional Enrichment Analysis
 
 Script: Please see scripts and explanations located at: https://github.com/z0on/GO_MWU\
 
