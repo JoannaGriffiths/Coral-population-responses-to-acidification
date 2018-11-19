@@ -45,9 +45,9 @@
 
 *Script*: WGCNA.R
 
-*Input files*: Orthoblast_RSEM_merged_matrix (in the DESeq2 folder)
+*Input files*: Orthoblast_RSEM_merged_matrix (in the DESeq2 folder), PhenData_WGCNA
 
-*Description*: Script contains analysis for WGCNA for day 29. The input file is the same for DESeq2 analysis (the merged matrix file contains the total counts of contains for each “Orthogroup” and the column file gives an explanation for the headers in the matrix file (the treatment conditions, population names, and physiological data associated with each sample).
+*Description*: Script contains analysis for WGCNA for day 29. The input file is the same for DESeq2 analysis (the merged matrix file contains the total counts of contains for each “Orthogroup” and the PhenData_WGCNA file gives an explanation for the headers in the matrix file (the treatment conditions, population names, and physiological data associated with each sample).
 
 
 
