@@ -1,0 +1,13 @@
+	POP	TREATMENT	TP	condition
+G1L2	g	L	two	GL2
+G2L2	g	L	two	GL2
+P1L2	b	L	two	BL2
+P2L2	b	L	two	BL2
+G1H2	g	H	two	GH2
+G2H2	g	H	two	GH2
+P1H2	b	H	two	BH2
+P2H2	b	H	two	BH2
+G3L2	g	L	two	GL2
+P3L2	b	L	two	BL2
+G3H2	g	H	two	GH2
+P3H2	b	H	two	BH2

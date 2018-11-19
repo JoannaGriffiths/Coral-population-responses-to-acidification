@@ -1,0 +1,13 @@
+	POP	TREATMENT	TP	condition
+G1L1	g	L	one	GL1
+G2L1	g	L	one	GL1
+P1L1	b	L	one	BL1
+P2L1	b	L	one	BL1
+G1H1	g	H	one	GH1
+G2H1	g	H	one	GH1
+P1H1	b	H	one	BH1
+P2H1	b	H	one	BH1
+G3L1	g	L	one	GL1
+P3L1	b	L	one	BL1
+G3H1	g	H	one	GH1
+P3H1	b	H	one	BH1
