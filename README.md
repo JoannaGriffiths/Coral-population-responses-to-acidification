@@ -58,3 +58,9 @@
 
 
 ## DAPC Analysis
+
+*Script*: DAPC.R
+
+*Input files*: Orthoblast_RSEM_merged_matrix (in the DESeq2 folder), PhenData_WGCNA (in the WGCNA folder)
+
+*Description*: Script contains analysis for DAPC analysis for day 29 and plotting results onto physiological PCA. The input file is the same for DESeq2 analysis (the merged matrix file contains the total counts of contains for each “Orthogroup” and the PhenData_WGCNA file gives an explanation for the headers in the matrix file (the treatment conditions, population names, and physiological data associated with each sample).
