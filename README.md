@@ -53,7 +53,11 @@
 
 ## PCoA Analysis
 
+*Script*: PCoA.R
 
+*Input files*: Orthoblast_RSEM_merged_matrix (in the DESeq2 folder), column_for_PCA_tp2.txt, column_for_PCA_tp1.txt, column_for_PCA_all_v3.txt
+
+*Description*: Script contains analysis for PCoA analysis transcriptomic data. The input file is the same for DESeq2 analysis (the merged matrix file contains the total counts of contains for each “Orthogroup” and the column files gives an explanation for the headers in the matrix file (the treatment conditions and population names associated with each sample).
 
 
 
