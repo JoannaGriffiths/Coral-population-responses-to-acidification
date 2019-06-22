@@ -1,4 +1,4 @@
-# Scripts and data from Griffiths (2018) in review
+# Scripts and data from Griffiths, J.S. et al. (2019) Differential responses to ocean acidification between populations of *Balanophyllia elegans* corals from high and low upwelling environments. Mol. Ecol. DOI: 10.1111/mec.15050
 
 ## Physiological Analysis
 
@@ -14,6 +14,18 @@
 *Input files*: lipid_protein_data.csv
 
 *Description*: Script contains code for normalizing lipid and protein data and performing an ANOVA
+
+
+
+## Post OrthoFinder Cleaning
+
+*Script*: find_genes_both_pop_from_ortho.py, find_orphans_from_orthogroups.py, Count_orthos.py, get_1stgene_from_orthos.py, 
+
+*Input files*: OrthoGroup.txt, RSEM_merged_matrix for each population (files were too large for GitHub so they are located on Dryad: https://doi.org/10.5061/dryad.8pg7963)
+
+*Output files*: Orthoblast_RSEM_merged_matrix
+
+*Description*: After using OrthoFinder to merge orthologous contigs between two assembled population-specific transcriptomes, we want to remove all OrthoGroups with a single contig from one population, but not the other population, which also did not get further sorted into other OrthoGroups via an independent blast search (identified via script find_orphans_from_orthogroups.py), were removed from the final consensus transcriptome (via script find_genes_both_pop_from_ortho.py). Now the script Count_orthos.py will use the RSEM count matrix to create an OrthoFinder RSEM matrix by summing counts for all contigs in an OrthoGroup. RSEM count matrix will now contain counts on an OrthoGroup level rather than the contig level. OrthoGroups now contain shared contigs between the two populations, which makes differentially expressed gene analysis for treatment conditions possible. The script get_1stgene_from_orthos.py will retreive the first gene found in each OrthoGroup (in OrthoGroup.txt file) so that Interproscan results for each gene can be matched up with its corresponding OrthoGroup.
 
 
 
